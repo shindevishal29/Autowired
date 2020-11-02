@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+<bean id="address" class="com.hefshine.bean.Address">
+      <property name="city" value="sangamner"/>
+      <property name="state" value="mh"></property>
+      <property name="contry" value="india"></property>
+       </bean>
+            
+   <bean id="e1" class="com.hefshine.bean.Employee" >
+   
+    <property name="id" value="20"/>
+    <property name="name" value="XYZ"/>
+    </bean>
+</beans>
